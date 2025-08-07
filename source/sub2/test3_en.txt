@@ -1,0 +1,10 @@
+test 3 string
+Hello, how are you?
+The cat is sleeping on the chair.
+I need to buy some bread and milk.
+She doesn’t like rainy days.
+What time does the train arrive?
+This book is very interesting.
+Can you help me, please?
+We went to the beach last weekend.
+They will arrive tomorrow morning.

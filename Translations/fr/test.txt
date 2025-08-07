@@ -1,0 +1,4 @@
+Traducción al frances
+Repositorio transifex
+Configuración de GitHub
+Bienvenido a Transifex

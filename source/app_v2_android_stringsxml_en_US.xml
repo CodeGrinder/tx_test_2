@@ -1,0 +1,1189 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Invoice2go</string>
+    <string name="app_legal_notices">Invoice2go for Android V%1$s\nCopyright © %2$s Invoice2go Inc. All Rights Reserved.</string>
+
+
+    <!-- region Bank transfer details -->
+    <string name="bank_transfer_details_title">ACH bank transfer details</string>
+    <string name="bank_transfer_details_account_number">Account number:</string>
+    <string name="bank_transfer_details_routing_number">Routing number:</string>
+    <string name="bank_transfer_details_client_footer">These are the bank details %s can use to pay you securely.</string>
+    <string name="bank_transfer_details_share_message">Thanks for your business. Please pay by bank transfer to this account:\n\nAccount number\n%1$s\n\nRouting number\n\'%2$s\'</string>
+    <string name="ach_credit_match_transaction_title">Match payment</string>
+    <string name="ach_credit_partially_applied">Partially applied</string>
+    <string name="ach_credit_amount_left_invoice">Amount left on invoice</string>
+    <string name="ach_credit_amount_left_to_match">Amount left to match</string>
+    <string name="ach_credit_match_remaining_amount_invoice">Match remaining amount to invoice</string>
+    <string name="ach_credit_mark_as_paid">Mark as paid</string>
+    <string name="ach_credit_apply_payment">Apply payment</string>
+    <!-- endregion -->
+
+    <!-- region Onboarding Experiment -->
+    <string name="landing_tagline">Send professional invoices in seconds</string>
+    <string name="landing_signup">Sign up with email</string>
+    <string name="landing_login">Got an account? Log in</string>
+    <string name="landing_separator">or</string>
+    <string name="landing_google">Sign up with Google</string>
+    <string name="landing_facebook">Sign up with Facebook</string>
+    <string name="landing_apple">Sign up with Apple</string>
+    <string name="landing_carousel_item_0">Win more work with professional estimates and communication tools</string>
+    <string name="landing_carousel_item_1">Save 10+ hours/week with simple invoice creation and customization</string>
+    <string name="landing_carousel_item_2">Get paid 3 weeks faster by offering multiple online payment methods</string>
+    <string name="landing_carousel_item_4">Stay organized by tracking expenses, appointments, and hours on projects</string>
+    <string name="getgo_signup_title">Sign up</string>
+    <string name="signup_hint_name">Full name</string>
+    <string name="signup_hint_email">Work email address</string>
+    <string name="signup_hint_password">Password</string>
+    <string name="signup_button_submit">Create account</string>
+    <string name="getgo_signup_button_submit">Sign up</string>
+    <string name="signup_creating_account">Creating your account...</string>
+    <string name="signup_error_validation_name">Please enter your enter your full name separated by a space</string>
+    <string name="signup_error_validation_email">Enter a valid email address</string>
+    <string name="signup_error_validation_password">Passwords must be at least 6 characters</string>
+    <string name="login_title">Log in</string>
+    <string name="login_hint_email">Email address</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_action_forgot_password">Forgot password?</string>
+    <string name="login_action_login">Log in</string>
+    <string name="login_action_google">Continue with Google</string>
+    <string name="login_action_facebook">Continue with Facebook</string>
+    <string name="login_error_validation_email">Enter a valid email address</string>
+    <string name="login_error_validation_password">Enter your password</string>
+    <!-- endregion -->
+
+    <!-- region Home experiment -->
+    <string name="home_title">Home</string>
+    <string name="home_create_new_header">Create new</string>
+    <string name="home_create_new_invoice">Invoice</string>
+    <string name="home_create_new_estimate">Estimate</string>
+    <string name="home_create_new_client">Client</string>
+    <string name="home_document_empty_title">Stay on top of your invoices</string>
+    <string name="home_document_empty_description">You can easily see and manage overdue and upcoming invoices here.</string>
+    <string name="home_search_hint">Search</string>
+    <string name="home_search_empty_header">Looking for something?</string>
+    <string name="home_search_empty_description">Use search to find clients, invoices, items and more.</string>
+    <string name="home_task_header">Let\'s get you set up...</string>
+    <string name="home_task_completed_header">You\'re all set up</string>
+    <string name="home_task_completed_body">Here are some other things to try:</string>
+    <string name="home_task_completed_body_bullet_1">\u2022 Send estimates to win new jobs</string>
+    <string name="home_task_completed_body_bullet_2">\u2022 Track expenses &amp; add them to invoices</string>
+    <string name="home_task_completed_body_bullet_3">\u2022 See reports on how you’re tracking</string>
+    <!-- endregion -->
+
+    <!-- region CCPA -->
+    <string name="landing_ccpa_body">Invoice2go may use your data as described in our privacy notice. By signing up, you agree to the</string>
+    <string name="landing_ccpa_tos">Terms of Service</string>
+    <string name="landing_ccpa_and">and</string>
+    <string name="landing_ccpa_privacy">Privacy Notice</string>
+    <!-- endregion -->
+
+    <!-- region FTU Empty states  -->
+    <string name="invoice_list_empty_state_title">Send invoices, get paid</string>
+    <string name="invoice_list_empty_state_description">This is where invoices live. Check here to see if they\'ve been opened or paid.</string>
+    <string name="estimate_list_empty_state_title">Win more jobs</string>
+    <string name="estimate_list_empty_state_description">Send estimates to show clients what a job will cost, and win new work.</string>
+    <string name="client_list_empty_state_title">Add customer details</string>
+    <string name="client_list_empty_state_description">Save your customers\' contact details for faster invoicing.</string>
+    <string name="purchase_order_list_empty_state_title">Order supplies on the go</string>
+    <string name="purchase_order_list_empty_state_description">Easily make and send purchase orders when you need supplies.</string>
+    <string name="credit_memo_empty_state_title">Give them some credit</string>
+    <string name="credit_memo_list_empty_state_description">Give customers credit for things they\'ve returned or haven\'t received.</string>
+    <string name="product_list_empty_state_title">Add products and services</string>
+    <string name="product_list_empty_state_description">Save your products and services to add them quickly on invoices and estimates.</string>
+    <string name="expense_list_empty_state_title">Keep track of expenses</string>
+    <string name="expense_list_empty_state_description">Record your expenses as you go to keep track of your business costs.</string>
+    <string name="appointment_list_empty_state_title">Stay organized</string>
+    <string name="appointment_list_empty_state_description">Keep track of your appointments and bill for your time.</string>
+    <string name="time_tracking_list_empty_state_title">Keep track of time</string>
+    <string name="time_tracking_list_empty_state_description">Use the times to keep a record of how long you\'re spending on the job.</string>
+    <string name="invoice_list_empty_state_content">Here\’s where your draft, sent, and paid invoices live.</string>
+    <string name="invoice_list_empty_state_value_title">Get the most out of invoicing</string>
+    <string name="invoice_list_empty_state_value_sub_title_1">Get paid up to 3x faster than checks with online payments</string>
+    <string name="invoice_list_empty_state_value_sub_content_1">Accept fast, secure payments with cards, fee-free ACH bank transfers, and PayPal.</string>
+    <string name="invoice_list_empty_state_value_sub_title_2">Save 10+ admin hours a week</string>
+    <string name="invoice_list_empty_state_value_sub_content_2">Set auto payment reminders so you don’t have to chase clients. Approved estimates are automatically converted to invoices.</string>
+    <string name="invoice_list_empty_state_value_sub_title_3">Get it all done here</string>
+    <string name="invoice_list_empty_state_value_sub_content_3">Request deposits, create purchase orders or credit notes, and use our time tracker to accurately bill your time.</string>
+    <string name="invoice_list_empty_state_ready_start_title">Ready to get started?</string>
+    <string name="invoice_list_empty_state_ready_start_sub_title_1">Create your invoice with all the details</string>
+    <string name="invoice_list_empty_state_ready_start_sub_content_1">Add your client, items, tax, and more.</string>
+    <string name="invoice_list_empty_state_ready_start_sub_title_2">Choose how to get paid</string>
+    <string name="invoice_list_empty_state_ready_start_sub_content_2">You can also add payment instructions and request a deposit.</string>
+    <string name="invoice_list_empty_state_ready_start_sub_title_3">Send your invoice</string>
+    <string name="invoice_list_empty_state_ready_start_sub_content_3">Preview it, write a message, and send it by email, SMS, or another way.</string>
+    <string name="invoice_list_empty_state_ready_start_sub_title_4">Get paid</string>
+    <string name="invoice_list_empty_state_ready_start_sub_content_4">Online payments are auto-reconciled. Other payments can be manually marked as paid.</string>
+    <string name="invoice_list_empty_state_article_goto_article">Go to article</string>
+    <string name="invoice_list_empty_state_article_read_time_nine_min">9-minute read</string>
+    <string name="invoice_list_empty_state_article_read_time_ten_min">10-minute read</string>
+    <string name="invoice_list_empty_state_article_title">Elevate your business</string>
+    <string name="invoice_list_empty_state_article_title_1">How to create an invoice</string>
+    <string name="invoice_list_empty_state_article_title_2">Designing an invoice</string>
+    <string name="invoice_list_empty_state_article_title_3">How to define invoice payment terms</string>
+    <string name="invoice_list_empty_state_article_title_4">Check out the resource hub</string>
+    <string name="invoice_list_empty_state_article_content_4">All the details, tips, and tricks to invoicing, right here.</string>
+    <string name="invoice_list_empty_state_invoice_tab_unpaid_title">Create, send, get paid</string>
+    <string name="invoice_list_empty_state_invoice_tab_unpaid_description">Draft and unpaid invoices go here. Once sent, you’ll see when they’ve been opened.</string>
+    <string name="invoice_list_empty_state_invoice_tab_paid_title">Nothing paid yet</string>
+    <string name="invoice_list_empty_state_invoice_tab_paid_description">Mark an invoice as fully paid to show it here.\n\nInvoices paid by card, ACH bank transfer, or PayPal will automatically show here.</string>
+    <!-- endregion -->
+
+    <!-- region PAYPAI SDK -->
+    <string name="document_paypal_info_canvas_title">PayPal</string>
+    <string name="document_paypal_info_canvas_us_body"><![CDATA[Let your customers pay easily and securely with PayPal. Turning PayPal on also lets your customers pay with Venmo, if they have it installed. Eligible customers can pay using PayPal Credit too.<br/><br/>Fees apply for PayPal and Venmo payments.<br/><br/>How it works:<br/>1. Turn PayPal on<br/>2. Customers see the option to pay with PayPal (or Venmo, if they have it)<br/>3. Payment goes directly into your PayPal account]]></string>
+    <string name="document_paypal_info_canvas_non_us_body"><![CDATA[Let your customers pay easily and securely with PayPal.<br/><br/>Transaction fees apply.<br/><br/>How it works:<br/>1. Turn PayPal on<br/>2. Customers see the option to pay with PayPal<br/>3. Payment goes directly into your PayPal account]]></string>
+    <string name="document_paypal_info_canvas_cta">Learn more</string>
+    <string name="settings_paypal_us_enabling_subtitle">Enabling PayPal also lets your customers pay with Venmo if they have it installed.\nEligible customers can pay using PayPal Credit too.</string>
+    <string name="settings_paypal_us_footer_text">Don\'t have a PayPal account? PayPal will create one for you with the email you use for Invoice2go.</string>
+    <string name="settings_paypal_non_us_footer_text">Don\'t have an account? PayPal will create one for you with the email you use for Invoice2go.</string>
+    <string name="settings_paypal_us_fees_text">Fees apply for PayPal and Venmo payments.</string>
+    <string name="settings_paypal_non_us_fees_text">Transaction fees apply.</string>
+    <!-- endregion -->
+
+    <!-- region New Email/sms/massaging Stuffs -->
+    <string name="document_email_subject_with_dot">%1$s · %2$s</string>
+    <string name="document_email_subject_no_dot">%1$s</string>
+    <string name="document_email_payment_message">To review &amp; pay, follow this link:%1$s</string>
+    <string name="document_email_payment_notification_link">Already paid? To notify us, follow this link: %1$s</string>
+    <string name="document_email_signoff_no_company_name">Thanks.</string>
+    <string name="document_email_signoff_with_company_name">Thanks,\n%1$s\n\'%2$s\'</string>
+    <string name="document_invoice_sms_message">Thanks for your business. To view your invoice, follow this link: %1$s\n\n\'%2$s\'</string>
+    <string name="document_invoice_overdue_sms_message">Hi. This is a reminder that your invoice (%1$s) is overdue. Please pay ASAP.\n\'%2$s\'\n\n%3$s</string>
+    <string name="document_invoice_overdue_subject">Overdue: %1$s</string>
+    <string name="document_invoice_deposit_overdue_subject">Deposit Overdue: %1$s</string>
+
+    <!-- sub region revised sms copy -->
+
+    <string name="revised_document_message_greeting_no_name">Hi there</string>
+    <string name="revised_document_message_greeting_with_name">Hi %1$s</string>
+    <string name="revised_document_invoice_with_online_payments_sms_message">
+        %1$s, thanks for your business.
+        \n\nTap on the link to securely view and pay your invoice:
+        \n\n\'%2$s\'
+        \n\n%3$s
+    </string>
+    <string name="revised_document_invoice_with_offline_payments_sms_message">
+        %1$s, thanks for your business.
+        \n\nTap on the link to securely view your invoice:
+        \n\n\'%2$s\'
+        \n\n%3$s
+    </string>
+    <string name="revised_document_invoice_overdue_with_online_payments_sms_message">
+        %1$s, a reminder that your invoice from %2$s is now overdue.
+        \n\nPlease tap the link to pay as soon as possible.
+        \n\n%3$s
+        \n\n%4$s
+    </string>
+    <string name="revised_document_invoice_overdue_with_offline_payments_sms_message">
+        %1$s, a reminder that your invoice from %2$s is now overdue.
+        \n\nPlease tap the link to view your invoice and pay it as soon as possible.
+        \n\n%3$s
+        \n\n%4$s
+    </string>
+    <string name="revised_document_estimate_no_deposit_sms_message">
+        %1$s, thanks for getting in touch. Here\'s an estimate for you to review.
+        \n\nTap the link to securely access and approve it.
+        \n\n\'%2$s\'
+        \n\n%3$s
+    </string>
+    <string name="revised_document_estimate_offline_deposit_sms_message">
+        %1$s, thanks for getting in touch. Here\'s an estimate for you to review.
+        \n\nIf you\'re happy with it, please pay the %2$s%% deposit of %3$s by %4$s.
+        \n\nTap the link to securely review the estimate and find out how to pay the deposit.
+        \n\n%5$s
+        \n\n%6$s
+    </string>
+    <string name="revised_document_estimate_online_deposit_sms_message">
+        %1$s, thanks for getting in touch. Here\'s an estimate for you to review.
+        \n\nIf you\'re happy with it, please pay the %2$s%% deposit of %3$s by %4$s.
+        \n\nTap the link to securely review the estimate and pay the deposit.
+        \n\n%5$s
+        \n\n%6$s
+    </string>
+    <string name="revised_document_estimate_deposit_overdue_sms_message">
+        %1$s, a reminder that the deposit for your estimate from %2$s is now overdue.
+        \n\nIf you\'d still like to proceed, please tap the link to pay the deposit as soon as possible.
+        \n\n%3$s
+        \n\n%4$s
+    </string>
+    <string name="revised_document_purchase_order_sms_message">
+        %1$s, here\’s a purchase order for you to review.
+        \n\nTap the link to securely access it.
+        \n\n\'%2$s\'
+        \n\n%3$s
+    </string>
+    <string name="revised_document_credit_memo_sms_message">
+        %1$s, we appreciate your business.
+        \n\nTap the link to securely access your credit memo.
+        \n\n\'%2$s\'
+        \n\n%3$s
+    </string>
+
+    <!-- sub region revised email copy for pdf removal -->
+    <string name="revised_document_invoice_email_no_pdf_online_payments_no_deposit">
+        Tap the link below to view this invoice, make a payment, and get a PDF copy.
+        \n\nIt\’s fast, easy, and secure. Once paid, you\’ll get a digital receipt.
+        \n\n%1$s
+    </string>
+    <string name="revised_document_invoice_email_no_pdf_offline_payments_no_deposit">
+        Tap the link below to view this invoice, and get a PDF copy.
+        \n\nIt\’s fast, easy, and secure.
+        \n\n%1$s
+    </string>
+    <string name="revised_document_invoice_email_no_pdf_online_payments_with_deposit">
+        Please pay a deposit of %1$s by %2$s.
+        \n\nTap the link below to view this invoice, make a payment, and get a PDF copy.
+        \n\nIt\’s fast, easy, and secure. Once paid, you\’ll get a digital receipt.
+        \n\n%3$s
+    </string>
+    <string name="revised_document_invoice_email_no_pdf_offline_payments_with_deposit">
+        Please pay a deposit of %1$s by %2$s.
+        \n\nTap the link below to view this invoice, and get a PDF copy.
+        \n\nIt\’s fast, easy, and secure.
+        \n\n%3$s
+    </string>
+
+    <string name="revised_document_estimate_email_no_pdf_online_payments_no_deposit">
+        Tap below to view this estimate, if you are happy with it please approve.
+        \n\nYou can also download a PDF copy of this estimate for your records.
+        \n\n%1$s
+    </string>
+    <string name="revised_document_estimate_email_no_pdf_offline_payments_no_deposit">
+        Tap below to view this estimate, if you are happy with it please approve.
+        \n\nYou can also download a PDF copy of this estimate for your records.
+        \n\n%1$s
+    </string>
+    <string name="revised_document_estimate_email_no_pdf_online_payments_with_deposit">
+        Tap below to view this estimate, if you are happy with it please pay your %1$s deposit by %2$s.
+        \n\nWe now accept payments online and provide you with a digital receipt.
+        \n\n%3$s
+    </string>
+    <string name="revised_document_estimate_email_no_pdf_offline_payments_with_deposit">
+        Tap below to view this estimate, if you are happy with it please pay your %1$s deposit by %2$s.
+        \n\nWe now accept payments online and provide you with a digital receipt.
+        \n\n%3$s
+    </string>
+
+    <!-- sub region paid email -->
+    <string name="document_email_paid_subject_prefix">PAID: %1$s</string>
+    <string name="document_email_payment_message_view_invoice">To view your invoice, follow this link: %1$s</string>
+
+    <!-- cannot use plurals quantity=zero/one for today/tomorrow since it's not gramatically different-->
+    <string name="document_invoice_overdue_greeting">This is a friendly reminder that you have an invoice to pay.</string>
+    <string name="document_invoice_deposit_overdue_greeting">This is a friendly reminder that you have a deposit to pay.</string>
+    <string name="document_invoice_no_deposit_overdue_greeting">This is a friendly reminder that payment for your invoice is overdue.</string>
+    <string name="document_invoice_overdue">Please pay this invoice as soon as possible.</string>
+    <string name="document_invoice_please_pay_today">Please pay this invoice today.</string>
+    <string name="document_invoice_please_pay_tomorrow">Please pay this invoice by tomorrow.</string>
+    <string name="document_invoice_please_pay_by_due_date">Please pay this invoice by %1$s.</string>
+    <plurals name="document_invoice_please_pay_relative_future">
+        <item quantity="one">Please pay this invoice within %1$s day.</item>
+        <item quantity="other">Please pay this invoice within %1$s days.</item>
+    </plurals>
+
+
+    <!-- also cannot use plurals quantity=zero/one for today/tomorrow since it's not gramatically different-->
+    <string name="document_deposit_overdue">Your %1$s deposit was due on %2$s.</string>
+    <string name="document_deposit_please_pay_today">Please pay your %1$s deposit today.</string>
+    <string name="document_deposit_please_pay_tomorrow">Please pay your %1$s deposit by tomorrow.</string>
+    <string name="document_deposit_please_pay_by_due_date">Please pay your %1$s deposit by %2$s.</string>
+    <plurals name="document_deposit_please_pay_relative_future">
+        <item quantity="one">Please pay your %1$s deposit within the next %2$s day.</item>
+        <item quantity="other">Please pay your %1$s deposit within the next %2$s days.</item>
+    </plurals>
+
+    <string name="document_estimate_payment_message">"To see and approve this estimate, follow this link: %1$s</string>
+
+    <string name="document_attachment_name_format">%1$s_\'%2$s\'.pdf</string>
+    <!-- endregion -->
+
+    <!-- region Document Action -->
+    <string name="document_actions_send">Send</string>
+    <string name="document_actions_preview_title">Preview</string>
+    <string name="document_actions_add_payment">Add payment</string>
+    <string name="document_actions_payment">Payment</string>
+    <string name="document_actions_payment_subtitle">Charge a card, record payment or mark as paid</string>
+    <string name="document_actions_record_and_mark">Record payment or mark as paid</string>
+    <string name="document_actions_transaction_history">Transaction history</string>
+    <string name="document_actions_state_unsent">Unsent</string>
+    <string name="document_actions_state_sent">Sent</string>
+    <string name="document_actions_state_opened">Opened</string>
+    <string name="document_actions_state_paid">Paid</string>
+    <string name="document_actions_more_description">Print, copy, export or sign.</string>
+    <string name="document_actions_recurring_invoice">Recurring invoice</string>
+    <string name="document_actions_convert_to_invoice">Convert to invoice</string>
+    <string name="document_actions_converted_to_invoice">Converted to invoice %1$s</string>
+    <string name="document_actions_estimate_status_menu">Estimate status</string>
+    <string name="document_actions_estimate_status">Status</string>
+    <string name="document_actions_recurring_monthly">Monthly</string>
+    <string name="document_actions_recurring_biweekly">Biweekly</string>
+    <string name="document_actions_recurring_weekly">Weekly</string>
+    <string name="document_actions_recurring_off">Off</string>
+    <string name="document_send_invoice_title">Send invoice %1$s</string>
+    <string name="document_send_estimate_title">Send estimate %1$s</string>
+    <string name="document_send_credit_memo_title">Send credit memo %1$s</string>
+    <string name="document_send_purchase_order_title">Send purchase order %1$s</string>
+    <string name="document_actions_broken_pdf">Can\'t generate preview</string>
+    <string name="document_actions_payment_summary">Paid: %1$s\u0020\u0020\u0020Due: %2$s</string>
+    <!-- endregion -->
+
+    <!-- region Edit Document -->
+    <string name="edit_invoice_saved_notification">Invoice saved</string>
+    <string name="edit_estimate_saved_notification">Estimate saved</string>
+    <string name="edit_purchase_order_saved_notification">Purchase order saved</string>
+    <string name="edit_credit_memo_saved_notification">Credit memo saved</string>
+    <string name="edit_document_next">Next</string>
+    <string name="edit_document_confirm_turn_off_direct_transfer_title">Turn off ACH bank transfer for future invoices &amp; estimates?</string>
+    <string name="edit_document_confirm_turn_off_stripe_title">Turn off Stripe for future invoices &amp; estimates?</string>
+    <string name="edit_document_confirm_turn_off_paypal_title">Turn off PayPal for future invoices &amp; estimates?</string>
+    <string name="edit_document_confirm_turn_off_ccp_title">Turn off Invoice2go Money card payments for future invoices &amp; estimates?</string>
+    <string name="edit_document_confirm_turn_off_invoice">Just this invoice</string>
+    <string name="edit_document_confirm_turn_off_estimate">Just this estimate</string>
+    <!-- endregion -->
+
+    <!-- region Email Komposer -->
+    <string name="email_composer_recipient_hint">To:</string>
+    <string name="email_composer_import_contact">Choose from contacts</string>
+    <string name="email_composer_subject_hint">Subject:</string>
+    <string name="email_composer_review_and_pay">Review &amp; pay</string>
+    <string name="email_composer_already_paid">Already Paid?</string>
+    <string name="notify_us">Notify us</string>
+    <string name="email_composer_custom_branding_label">Powered by</string>
+    <string name="email_composer_toolbar_title">Email</string>
+    <string name="email_composer_sending_message">Sending…</string>
+    <string name="email_composer_cancel_send" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="email_composer_canceling_send">Cancelling</string>
+    <string name="email_composer_amount_subtitle_due_date_generic">Due %1$s</string>
+    <string name="email_composer_amount_subtitle_due_tomorrow">Due tomorrow</string>
+    <string name="email_composer_amount_subtitle_due_today">Due today</string>
+    <plurals name="email_composer_amount_subtitle_due_in">
+        <item quantity="one">Due in %1$s day.</item>
+        <item quantity="other">Due in %1$s days.</item>
+    </plurals>
+    <plurals name="email_composer_amount_subtitle_overdue">
+        <item quantity="one">%1$s day overdue.</item>
+        <item quantity="other">%1$s days overdue.</item>
+    </plurals>
+    <string name="email_composer_amount_subtitle_deposit">Deposit</string>
+    <plurals name="email_composer_amount_deposit_overdue">
+        <item quantity="one">Deposit %1$s day overdue.</item>
+        <item quantity="other">Deposit %1$s days overdue.</item>
+    </plurals>
+    <string name="email_composer_invalid_email_dialog_title">The email address you entered is invalid.</string>
+    <string name="email_composer_cc_hint">CC:</string>
+    <string name="email_composer_bcc_hint">BCC:</string>
+    <!-- endregion -->
+
+    <!-- region STRIPE NEW STUFF -->
+    <string name="stripe_accept_card_payment_title">Accept card payments</string>
+    <string name="stripe_accept_card_payment_body"><![CDATA[Accept credit cards & other popular payment methods with Invoice2go using Stripe.<br/><br/>Stripe is a secure payment platform, trusted by over a million businesses around the world.]]></string>
+    <string name="stripe_accept_card_payment_list_1">Make it easy for customers to pay</string>
+    <string name="stripe_accept_card_payment_list_2">Accept payment online, or in-person</string>
+    <string name="stripe_accept_card_payment_list_3">Fast, easy setup</string>
+    <string name="stripe_accept_card_payment_cta_1">Connect with Stripe</string>
+    <string name="stripe_accept_card_payment_cta_2">Learn more</string>
+    <string name="stripe_underwriting_complete_progress">Redirecting…</string>
+    <string name="stripe_underwriting_complete_payment_enabled">Card payments enabled</string>
+    <string name="stripe_ccp_replacement_dialog_title">Set up Stripe payments, turn off Invoice2go Money card payments</string>
+    <string name="stripe_ccp_replacement_dialog_body">You can only offer one type of card payment to clients.</string>
+    <string name="stripe_ccp_replacement_dialog_continue">Set up Stripe</string>
+    <string name="stripe_ccp_replacement_dialog_cancel">Cancel</string>
+    <!-- endregion -->
+
+    <!-- region Cancel Tipu-tipu -->
+    <string name="manage_subscription_settings_entry">Manage Subscription</string>
+    <string name="manage_subscription_toolbar_title">Manage Subscription</string>
+    <string name="manage_subscription_plan_type">Plan</string>
+    <string name="manage_subscription_billing">Billing</string>
+    <string name="manage_subscription_next_payment">Next payment</string>
+    <string name="manage_subscription_expires_on">Expires</string>
+    <string name="manage_subscription_invoices_quota">Invoices remaining</string>
+    <string name="manage_subscription_clients_quota">Clients remaining</string>
+    <string name="manage_subscription_storage_quota">Storage remaining</string>
+    <string name="manage_subscription_cancel">Cancel subscription</string>
+    <string name="manage_subscription_monthly_billing">%1$s monthly</string>
+    <string name="manage_subscription_yearly_billing">%1$s yearly</string>
+    <string name="manage_subscription_cancel_ios">To cancel your subscription, sign in to your account on the Apple App Store.</string>
+    <string name="manage_subscription_cancel_web">To cancel your subscription, log into your Invoice2go account on your computer, and navigate to Account &amp; settings > Manage subscription.</string>
+    <string name="manage_subscription_cancel_and_header"><![CDATA[<b>How to cancel</b>]]></string>
+    <string name="manage_subscription_cancel_and_content"><![CDATA[1. Open the <b>Play Store</b> app<br/>2. Tap <b>Menu</b> ☰<br/>3. Tap <b>Subscriptions</b><br/>4. Tap <b>Invoice2go</b><br/>5. Tap <b>Cancel subscription</b><br/><br/>You’ll have access to your Invoice2go data until the end of this billing cycle.]]></string>
+    <string name="manage_subscription_cancel_ok">Got it</string>
+    <string name="manage_subscription_cancel_to_website">Go to website</string>
+    <string name="manage_subscription_renewed_complete_title">Discount applied</string>
+    <string name="manage_subscription_renewed_complete_monthly">You will now be charged at the discounted rate.</string>
+    <string name="manage_subscription_renewed_complete_yearly">You will now be charged at the discounted rate.</string>
+
+    <!-- endregion -->
+
+    <!-- region OptOutTrial WebView -->
+    <string name="opt_out_trial_web_view_error_title">No connection</string>
+    <string name="opt_out_trial_web_view_error_description">Make sure WiFi or cellular data is turned on and try again.</string>
+    <!-- endregion -->
+
+    <!-- region Document add item improvement -->
+    <string name="toolbar_title_add_items">Add items</string>
+    <string name="toolbar_title_edit_items">Edit item</string>
+    <string name="doc_add_item_name_empty">Enter an item name</string>
+    <string name="doc_add_item_description">Item description</string>
+    <string name="doc_add_item_unit_price">Unit price</string>
+    <string name="doc_add_item_price">Price</string>
+    <string name="doc_add_item_more_description">Tax, discount, unit type</string>
+    <string name="doc_add_item_choose_multiple">Choose multiple</string>
+    <string name="doc_add_item_choose_multiple_description">Search items, expenses and time</string>
+    <string name="doc_add_item_toggle_label">Autosave new items</string>
+    <string name="item_delete_multiple_confirmation_dialog_title">Delete the selected items?</string>
+    <string name="doc_add_item_info_title">Autosave new items</string>
+    <string name="doc_add_item_info_content">Save all new items to easily add them in future.\n\nNew items will be saved from invoices, estimates, purchase orders and credit memos.</string>
+    <string name="doc_add_item_info_cta">Got it</string>
+    <string name="doc_add_item_more_options_subtitle_tax_parts_labor_discount">%1$s, parts or labor, discount</string>
+    <string name="doc_add_item_more_options_subtitle_tax_days_hours_discount">%1$s, days or hours, discount</string>
+    <string name="doc_add_item_more_options_subtitle_parts_labor_discount">Parts or labor, discount</string>
+    <string name="doc_add_item_more_options_subtitle_days_hours_discount">Days or hours, discount</string>
+    <string name="doc_add_item_more_options_subtitle_tax_parts_labor">%1$s, parts or labor</string>
+    <string name="doc_add_item_more_options_subtitle_tax_days_hours">%1$s, days or hours</string>
+    <string name="doc_add_item_more_options_subtitle_parts_labor">Parts or labor</string>
+    <string name="doc_add_item_more_options_subtitle_days_hours">Days or hours</string>
+    <!-- endregion -->
+
+    <!-- region Apple login -->
+    <string name="signup_separator">or continue with</string>
+    <string name="getgo_signup_separator">or sign up with</string>
+    <string name="login_separator">or continue with</string>
+    <string name="login_separator_v2">or log in with</string>
+    <!-- endregion -->
+
+    <!-- region Tanda Baca -->
+    <string name="interpunct">·</string>
+    <!-- endregion -->
+
+    <!-- region Profile + Reviews -->
+    <string name="profile_reviews_toolbar">Company info</string>
+    <string name="profile_company_info_tab">Company info</string>
+    <string name="profile_reviews_tab">Reviews</string>
+    <string name="profile_reviews_empty_state_header">No reviews yet</string>
+    <string name="profile_reviews_empty_state_content">Customers can leave private reviews for you after they pay an invoice.</string>
+    <string name="profile_reviews_error_state_header">Can\'t load reviews</string>
+    <string name="profile_reviews_error_state_content">Check your connection, or try again later.</string>
+    <string name="settings_profile_reviews_label">Company Info</string>
+    <string name="settings_profile_reviews_sublabel">Details, reviews</string>
+    <!-- endregion -->
+
+    <!-- region Email verification -->
+    <string name="email_verification_alert_action_message">Verify your email address. Can\'t see the email? Check your spam.</string>
+    <string name="email_verification_alert_action_message_payment">To accept card payments with Stripe, verify your email address.</string>
+    <string name="email_verification_alert_action_action">Resend email</string>
+    <string name="email_verification_stripe_info_title">To accept card payments, verify your email</string>
+    <string name="email_verification_stripe_info_body"><![CDATA[Accept credit cards & other popular payment methods with Invoice2go using Stripe.<br/><br/>Stripe is a secure payment platform, trusted by over a million businesses around the world.]]></string>
+    <string name="email_verification_stripe_info_primary_cta">Resend verification email</string>
+    <string name="email_verification_stripe_info_secondary_cta">Learn more</string>
+    <string name="email_verification_payment_options_stripe_verify">Verify</string>
+    <string name="email_verification_help_menu_section_header">Account</string>
+    <string name="email_verification_help_menu_edit_email_label">Edit email</string>
+    <string name="email_verification_help_menu_cancel_subscription_label">Cancel subscription</string>
+    <string name="email_verification_help_menu_logout_label">Log out</string>
+    <string name="email_verification_help_menu_logout_description">Sign into another account</string>
+    <string name="email_verification_success_dialog_title">Verification email sent</string>
+    <!-- sample: surya.darma@invoice2go.com<new line>Check your inbox, and follow the instructions to verify. -->
+    <string name="email_verification_success_dialog_message">%s\nCheck your inbox, and follow the instructions to verify.</string>
+    <string name="email_verification_success_dialog_cta">Got it</string>
+    <string name="email_verification_generic_title">Email verification required</string>
+    <string name="email_verification_generic_body_text"><![CDATA[To keep using Invoice2go, you’ll need to verify your email address. Having a verified email helps to keep your data safe. 👍<br/><br/>A verification email’s just been sent to this address:<br/>%1$s]]></string>
+    <!-- endregion -->
+
+    <!-- 2FA Region -->
+    <string name="settings_account_security">Security</string>
+    <string name="two_factor_authentication_title">Two-factor authentication</string>
+    <string name="two_factor_authentication_summary">Verify by email when you log in.</string>
+    <string name="two_factor_authentication_help_description">Because you\'ve connected Xero, this needs to be on.</string>
+    <string name="two_factor_authentication_hyperlink">Learn More</string>
+    <string name="two_factor_authentication_label_on">On</string>
+    <string name="two_factor_authentication_label_off">Off</string>
+    <string name="mfa_trusted_devices_title">Trusted devices</string>
+    <string name="mfa_trusted_devices_remove_all_label">Remove all</string>
+    <string name="mfa_trusted_devices_remove_all_dialog_title">Remove all trusted devices?</string>
+    <string name="mfa_trusted_devices_remove_all_dialog_message">You\'ll need to verify your identity again when logging in on those devices.</string>
+    <!-- end region -->
+
+    <string name="request_review_footer_entry">Request a review</string>
+    <string name="request_review_toolbar_title">Request a review</string>
+    <string name="request_review_email_subject">How did we do?</string>
+    <string name="request_review_instruction_decription">Customers can review if they\’ve paid, and if they haven’t already left a review.</string>
+    <string name="request_review_email_body">Hi,\n\nThanks again for your business. If you have a minute, we’d appreciate it if you could leave a quick review.\n\nFollow this link:\n%1$s\n\nReviews let other customers know what we do well. They also let us know what matters to you, and how we can improve.\n\nIf there’s anything you’d prefer to tell us or discuss, please reply to this email or give us a call.\n\nKind regards,\n\'%2$s\'\n%3$s</string>
+    <string name="request_review_email_body_html"><![CDATA[Hi,<br/><br/>Thanks again for your business. If you have a minute, we’d appreciate it if you could leave a quick review.<br/><br/>Follow this link:<br/>%1$s<br/><br/>Reviews let other customers know what we do well. They also let us know what matters to you, and how we can improve.<br/><br/>If there’s anything you’d prefer to tell us or discuss, please reply to this email or give us a call.<br/><br/>Kind regards,<br />%2$s<br/>%3$s]]></string>
+    <string name="request_review_no_client_title">No eligible clients</string>
+    <string name="request_review_no_client_description">You can ask clients for reviews if they’ve paid an invoice, and haven’t already left a review.\n\nInvoices need to be marked as paid for you to request reviews.</string>
+
+    <!-- Mark as paid -->
+    <string name="mark_as_paid_send_receipt_title">Send receipt</string>
+    <string name="mark_as_paid_send_receipt_client">Email receipt to client</string>
+    <string name="mark_as_paid_send_receipt_preview">Get a preview email</string>
+    <string name="mark_as_paid_payment_section">Payment method (optional)</string>
+    <string name="mark_as_paid_add_note">Add details…</string>
+    <string name="mark_as_paid_invoice_paid">%s PAID</string>
+
+    <!-- PROFILE -->
+    <string name="settings_profile_public_details_header">Public details</string>
+    <string name="settings_profile_public_details_tab_title">Details</string>
+    <string name="settings_profile_public_details_info_description">Public details appear on your profile page, and on your invoices, estimates and credit memos.</string>
+    <string name="settings_profile_public_details_company_summary">Company summary</string>
+    <string name="settings_profile_public_details_company_summary_input_footer">Describe your business. This description shows on your public profile, and in places like Google search results.</string>
+    <string name="settings_profile_public_details_profile_page">Profile page</string>
+    <string name="settings_profile_info_canvas_title">BETA: Publish your own profile page</string>
+    <string name="settings_profile_info_canvas_body"><![CDATA[You told us you’d like to test new features - here’s your chance! <br/>Make it easier for clients to find you, with a free business profile page on the web.<br /><br/><br/>Give it a try, and tell us what you think. For more details, check your email, or the ‘Learn more’ link below. Your feedback improves Invoice2go for everyone.]]></string>
+    <string name="settings_profile_info_canvas_gotit">Got it</string>
+    <string name="settings_profile_info_canvas_learnmore">Learn more</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- region Tooltips -->
+    <string name="tooltips_cta_next">Next</string>
+    <string name="tooltips_cta_got_it">Got it</string>
+    <!-- endregion -->
+
+    <!-- Insights hub -->
+    <plurals name="insights_hub_overdue_invoices">
+        <item quantity="one">Overdue invoices (%1$d)</item>
+        <item quantity="other">Overdue invoices (%1$d)</item>
+    </plurals>
+
+    <plurals name="insights_hub_unpaid_invoices">
+        <item quantity="one">Unpaid invoices (%1$d)</item>
+        <item quantity="other">Unpaid invoices (%1$d)</item>
+    </plurals>
+
+    <plurals name="insights_hub_unsent_invoices">
+        <item quantity="one">Unsent invoices (%1$d)</item>
+        <item quantity="other">Unsent invoices (%1$d)</item>
+    </plurals>
+    <string name="insights_hub_tax_year_sales">Tax year sales %1$d</string>
+    <string name="insights_hub_pending_estimates">Pending estimates (%1$d)</string>
+
+    <string name="insights_hub_list_title">%1$s (%2$d)</string>
+    <string name="insights_offline_message">Cannot load reports. Check your internet connection and try again</string>
+    <string name="insights_error_message">Cannot load reports. Something\'s not working, please try again later</string>
+    <string name="insights_hub_details_footer">%1$s · %2$s</string>
+
+    <string name="insights_hub_tax_year_header_subtitle">%1$s (%2$d invoices)</string>
+    <string name="insights_hub_tax_year_empty_graph">Monthly or quarterly sales totals will show here once you start invoicing.</string>
+    <string name="insights_hub_tax_year_subtitle">%1$s invoices</string>
+    <string name="insights_hub_tax_year_monthly_tab">Month</string>
+    <string name="insights_hub_tax_year_quarterly_tab">Quarter</string>
+    <string name="insights_hub_tax_year_average_text_monthly">Average %1$s /month</string>
+    <string name="insights_hub_tax_year_average_text_quarterly">Average %1$s /quarter</string>
+    <string name="insights_hub_empty_overdue_title">No overdue invoices</string>
+    <string name="insights_hub_empty_overdue_cta">See all invoices</string>
+    <string name="insights_hub_empty_tax_year_cta">Create An Invoice</string>
+    <string name="insights_hub_empty_pending_estimates_title">No pending estimates</string>
+    <string name="insights_hub_empty_pending_estimates_cta">Create an estimate</string>
+
+    <string name="insights_hub_expanded_offline_error_title">You\'re offline</string>
+    <string name="insights_hub_expanded_offline_error_body">Connect to see latest data.</string>
+    <string name="insights_hub_expanded_api_error_title">Can\’t load reports</string>
+    <string name="insights_hub_expanded_api_error_body">Please try again later.</string>
+
+    <string name="insights_collapsible_offline_title">You\'re offline</string>
+    <string name="insights_collapsible_offline_message">Connect to see latest data.</string>
+    <string name="insights_collapsible_api_error_title">Can\'t load reports data</string>
+    <string name="insights_collapsible_api_error_message">Please try again.</string>
+
+    <string name="insights_collapsible_header_title">Overview</string>
+    <string name="insights_collapsible_header_button_show">Show</string>
+    <string name="insights_collapsible_header_button_hide">Hide</string>
+
+    <string name="insights_hub_invoice_section_header">Invoice activity</string>
+    <!-- endregion -->
+
+    <!-- region IA/NAV -->
+    <string name="main_nav_item_home">Home</string>
+    <string name="main_nav_item_clients">Clients</string>
+    <string name="main_nav_item_invoices">Invoices</string>
+    <string name="main_nav_item_Estimates">Estimates</string>
+    <string name="main_nav_item_more">More</string>
+    <string name="main_nav_item_purchase_orders">Purchase orders</string>
+    <string name="main_nav_item_credit_memos">Credit memos</string>
+    <string name="main_nav_item_items">Items</string>
+    <string name="main_nav_item_expenses">Expenses</string>
+    <string name="main_nav_item_appointments">Appointments</string>
+    <string name="main_nav_item_time_tracking">Time tracking</string>
+    <string name="main_nav_item_reports">Reports</string>
+    <string name="main_nav_item_help">Help</string>
+    <string name="main_nav_item_refer_invoice2go">Refer Invoice2go</string>
+    <string name="main_nav_section_other_documents">Other</string>
+    <string name="main_nav_section_items_expenses_time">Items, expenses &amp; time</string>
+    <string name="main_nav_section_insights">Insights</string>
+    <string name="main_nav_section_support">Support</string>
+    <string name="settings_debug_options" translatable="false">Debug Options</string>
+    <string name="settings_debug_title" translatable="false">Test</string>
+    <string name="account_settings_company_section">Company</string>
+    <string name="account_settings_account_section">Account</string>
+    <string name="account_settings_settings_section">Settings</string>
+    <string name="account_settings_tax_section">Tax</string>
+    <string name="account_settings_security_section">Security</string>
+    <string name="account_settings_other_section">Other</string>
+    <string name="account_settings_limited_access_message">Limited access. For more settings, contact your administrator.</string>
+    <string name="account_settings_change_email_label">Change login email</string>
+    <string name="account_settings_change_email_hint">Login email</string>
+    <string name="account_settings_switch_account_label">Switch or add account</string>
+    <string name="account_settings_personal_info_label">Personal info</string>
+    <string name="account_settings_security_label">Security</string>
+    <string name="account_settings_tax_currency_label">Tax settings &amp; currency</string>
+    <string name="account_settings_tax_1099k_label">Form 1099-K</string>
+    <string name="account_settings_bank_statements_label">Bank statements</string>
+    <string name="account_settings_logout_label">Log out</string>
+    <string name="account_settings_account_deletion">Account deletion</string>
+    <string name="manage_subscription_heading">Subscription details</string>
+    <string name="client_payment_options_online_payment_fees_heading">Online payment fees</string>
+    <string name="client_payment_options_online_payment_fees_heading_us">Card payment fees</string>
+    <string name="client_payment_options_due_date_heading">Invoice due date</string>
+    <string name="client_payment_options_payment_terms_label">Payment terms</string>
+    <string name="client_payment_options_instructions_heading">Invoice instructions</string>
+    <string name="client_payment_options_remittance_description">Show remittance advice at the bottom of invoices so clients can attach payments.</string>
+    <string name="client_communication_email_message_heading">Email message</string>
+    <string name="client_communication_email_message_label">Custom email message</string>
+    <string name="client_communication_email_message_description">Change the email message you send to clients.</string>
+    <string name="client_communication_post_payment_heading">Post payment options</string>
+    <string name="client_communication_payment_note_label">Payment note</string>
+    <string name="client_communication_payment_note_description">Let your clients add a note when they pay.</string>
+    <string name="client_communication_payment_receipt_description">Automatically send a receipt to clients when they pay.</string>
+    <string name="tax_currency_location_heading">Location</string>
+    <string name="tax_currency_registration_certification_heading">Registration &amp; certification</string>
+    <string name="tax_currency_tax_year_heading">Tax year</string>
+    <string name="tax_currency_rates_heading">Rates</string>
+    <string name="tax_currency_withholding_heading">Withholding</string>
+    <string name="home_ia_nav_onboarding_banner_message">New: Navigation has been improved. Things you use most are now at your fingertips. 👌</string>
+    <string name="home_ia_nav_onboarding_banner_cta1">Dismiss</string>
+    <string name="home_ia_nav_onboarding_banner_cta2">See what\'s changed</string>
+    <string name="home_ia_nav_tooltip_1_title">Account settings</string>
+    <string name="home_ia_nav_tooltip_1_desc">Manage your settings, and company details.</string>
+    <string name="home_ia_nav_tooltip_2_title">Create new...</string>
+    <string name="home_ia_nav_tooltip_2_desc">Quickly create new invoices and estimates, or add new clients or expenses.</string>
+    <string name="home_ia_nav_tooltip_3_title">Navigate</string>
+    <string name="home_ia_nav_tooltip_3_desc">See all your clients, invoices and estimates in a single tap.</string>
+    <string name="account_switcher_heading">Accounts</string>
+    <!-- endregion -->
+
+    <!-- region Structured reviews -->
+    <string name="structured_reviews_toggle">Allow reviews</string>
+    <string name="structured_reviews_profesionalism">General experience</string>
+    <string name="structured_reviews_value">Value for money</string>
+    <string name="structured_reviews_quality">Quality</string>
+    <string name="structured_reviews_punctuality">Timeliness</string>
+    <string name="structured_reviews_communication">Communication</string>
+    <string name="structured_reviews_your_rating">Your rating</string>
+    <string name="structured_reviews_num_of_reviews">Based on %1$d reviews</string>
+    <string name="structured_reviews_cells_readmore">Read more</string>
+    <string name="structured_reviews_cells_rating_out_of_5">%1$d/5</string>
+    <!-- endregion -->
+
+    <!-- region File Attachments -->
+    <string name="file_attachments_send">attachments</string>
+    <string name="file_attachment_size_limit_title">Can\'t attach file</string>
+    <string name="file_attachment_size_limit_error">Your combined attachments can\'t be more than 20MB. Remove some files, or consider sending in a separate email.</string>
+    <string name="file_attachment_maximum_files_reached">Maximum 9 files. Remove some files, or consider sending in a separate email.</string>
+    <!-- endregion -->
+
+    <!-- TIPS -->
+    <string name="tip_header">Tips</string>
+    <string name="tip_toggle_label">Allow tips</string>
+    <string name="tip_toggle_subtitle">Let customers add a tip when they pay online.</string>
+
+    <!-- region App intro -->
+    <string name="app_intro_default_cta">Create account</string>
+    <string name="app_intro_try_free_cta">Try it free</string>
+    <string name="app_intro_test3_cta">Try Invoice2go for free</string>
+    <string name="app_intro_default_title_v2_first_line">Start your</string>
+    <string name="app_intro_default_title_v2_second_line">30-day free trial</string>
+    <string name="app_intro_test_3_title">Work your way</string>
+    <string name="app_intro_default_subtitle_v2_first">No credit card required</string>
+    <string name="app_intro_default_subtitle_v2_second">Cancel anytime</string>
+    <string name="app_intro_simple_subtitle">All the tools you need to run your business and get paid.</string>
+    <string name="app_intro_try_free_for_30_cta">Try it free for 30 days</string>
+    <string name="app_intro_simple_con_builder_heading_first">225,000</string>
+    <string name="app_intro_simple_con_builder_body_first">Small businesses use Invoice2go to work their way</string>
+    <string name="app_intro_simple_con_builder_heading_second">$25B+</string>
+    <string name="app_intro_simple_con_builder_body_second">Invoices sent every year</string>
+    <!-- endregion -->
+
+    <!-- region 2fa -->
+    <string name="settings_two_factor_confirmation">Two-factor authentication is on</string>
+    <string name="settings_personal_info_comms_preferences_header">Communication Preferences</string>
+    <string name="settings_personal_info_comms_preferences_title">Emails and notifications</string>
+    <string name="settings_personal_info_email_header">Email</string>
+    <string name="settings_personal_info_email_action">Update</string>
+    <string name="settings_personal_info_email_label">Login email</string>
+    <string name="settings_personal_info_email_description">This is your account login, and the email Invoice2go uses to communicate with you.</string>
+    <string name="settings_personal_info_mobile_header">Mobile</string>
+    <string name="settings_personal_info_mobile_action">Update</string>
+    <string name="settings_personal_info_mobile_empty_text">Add mobile number</string>
+    <string name="settings_personal_info_mobile_description">Used for verification codes when you log in.</string>
+    <string name="settings_personal_info_mobile_dialog_title">To update your mobile number, contact us</string>
+    <string name="settings_personal_info_mobile_dialog_description">For security reasons, your mobile number can only be updated by our Support team.</string>
+    <string name="settings_personal_info_mobile_dialog_choice_call">Call %1$s</string>
+    <string name="settings_personal_info_mobile_dialog_choice_chat">Chat online</string>
+    <string name="settings_personal_info_mobile_dialog_choice_cancel">Cancel</string>
+    <string name="settings_error_unable_to_call_title">Can’t call from this device</string>
+    <string name="settings_error_unable_to_call_description">Please dial %1$s from a phone.</string>
+    <string name="settings_personal_info_alert">Personal info is private, and only used for security or to verify.</string>
+    <string name="security_two_factor_authentication_no_method_summary">If two-factor authentication is on, other team members will also need to verify.</string>
+    <string name="security_two_factor_authentication_mandatory_summary">Two-factor authentication is required for this account. Other team members will also need to verify when logging in.</string>
+    <string name="security_two_factor_authentication_opt_summary">Verify it\'s you when you login</string>
+    <string name="mfa_edit_mobile_title">Add mobile number</string>
+    <string name="mfa_edit_mobile_subtitle">A verification code will be sent to this number. This can be different from your company phone number.</string>
+    <string name="mfa_edit_mobile_country_label">Country</string>
+    <string name="mfa_edit_mobile_mobile_label">Mobile number</string>
+    <string name="mfa_edit_mobile_method_label">Send code by</string>
+    <string name="mfa_edit_mobile_sms_label">SMS</string>
+    <string name="mfa_edit_mobile_phone_call_label">Phone call</string>
+    <string name="mfa_edit_mobile_next_label">Send SMS code</string>
+    <string name="mfa_edit_mobile_mobile_empty">Enter a valid mobile number</string>
+    <string name="mfa_enforce_edit_mobile_title">First, add a mobile number</string>
+    <string name="mfa_enforce_edit_mobile_subtitle">It helps keep your account secure. We’ll only use it to verify your identity now and when you log in.</string>
+    <string name="mfa_enforce_edit_mobile_number_added_dialog_title">You’ve already added a mobile number</string>
+    <string name="mfa_enforce_edit_mobile_number_added_dialog_message">We’ll send you an SMS code when we need to verify your identity.</string>
+    <string name="mfa_enforce_edit_mobile_number_added_dialog_confirm">Got it</string>
+    <string name="mfa_verify_title">Verify it\'s you</string>
+    <string name="mfa_verify_subtitle">Enter the 6-digit code sent to %s</string>
+    <string name="mfa_verify_resend_sms">Resend SMS</string>
+    <string name="mfa_verify_resend_email">Resend Email</string>
+    <string name="mfa_verify_remember_device">Remember this device</string>
+    <string name="mfa_verify_confirm">Confirm</string>
+    <string name="mfa_verify_send_email">Try email</string>
+    <string name="mfa_verify_send_sms">Try SMS</string>
+    <string name="mfa_verify_code_label">Verification code</string>
+    <string name="mfa_verify_add_success">Mobile number added</string>
+    <string name="mfa_verify_edit_success">Mobile number updated</string>
+    <string name="mfa_verify_info_resend">SMS already sent</string>
+    <string name="mfa_verify_info_resend_email">Email already sent</string>
+    <string name="mfa_verify_info_sent">SMS sent</string>
+    <string name="mfa_verify_info_sent_email">Email sent</string>
+    <string name="mfa_verify_loading">Verifying...</string>
+    <string name="mfa_verify_remember_device_server_error">Unable to remember device</string>
+    <string name="mfa_verify_get_help">Get help</string>
+    <string name="mfa_verify_get_help_dialog_title">Can’t verify? We can help.</string>
+    <string name="mfa_verify_get_help_dialog_description">If you need help to log in, or want to update your mobile number, contact our Support team.</string>
+    <string name="mfa_verify_get_help_dialog_positive">Chat online</string>
+    <string name="mfa_verify_get_help_dialog_negative">Cancel</string>
+    <string name="mfa_invalid_phone_number">Enter a valid phone number</string>
+    <string name="mfa_incorrect_code">Wrong verification code. Check the number, or get another code.</string>
+    <string name="mfa_too_many_request">Too many SMS messages sent. Please wait an hour and try again.</string>
+    <string name="mfa_too_many_incorrect_code">Too many attempts. Send yourself another code and try again.</string>
+    <string name="mfa_token_expired">Code expired. Send yourself another code and try again.</string>
+    <string name="mfa_exchange_token_unavailable">For security reasons, you need to update your app to continue.</string>
+    <string name="mfa_not_valid_us_number">Must be valid US number</string>
+    <string name="login_invalid_credential">Your email address or password isn\'t correct.</string>
+    <string name="login_too_many_attempts">Your account\'s been blocked after multiple login attempts. Check your email for instructions on how to unblock it.</string>
+    <string name="login_password_change_required">Please reset your password to log in. Tap \'Forgot password\' to continue.</string>
+    <string name="account_already_exist">Looks like you already have an account. You can log in or use a different email address to create a new account.</string>
+    <string name="mfa_reset_number_title">Need to update your number?</string>
+    <!-- endregion -->
+
+    <!-- region Enforce mfa -->
+    <string name="enforce_mfa_lock_screen_loading">Turning on two-factor authentication...</string>
+    <!-- endregion -->
+
+    <!-- Region Instant websites -->
+    <string name="main_nav_item_instant_websites">Instant websites</string>
+    <string name="main_nav_section_marketing">Marketing</string>
+    <!-- endregion -->
+
+    <!-- Region Jobs-->
+    <string name="main_nav_section_workflow">Workflow</string>
+    <string name="main_nav_item_Jobs">Projects</string>
+    <string name="home_screen_fab_create_projects">Project</string>
+
+    <string name="job_list_toolbar_title">Projects</string>
+    <string name="job_list_empty_state_title">Organize your projects</string>
+    <string name="job_list_empty_state_description">Keep your documents, photos, and contacts for a project all together in one place.</string>
+    <!-- endregion -->
+
+    <!-- CRM integration -->
+    <string name="crm_banner_title">NEW: Engage 🎉</string>
+    <string name="crm_banner_message">Stay in touch with your clients, &amp; win more business.</string>
+    <string name="crm_banner_button_title">TRY IT NOW</string>
+    <!-- endregion -->
+
+    <!-- jobs -->
+    <string name="job_document_attachment_error_body">Document is already linked to another project. Please try selecting another document</string>
+    <string name="job_document_attachment_error_title">Document Already Linked</string>
+    <!-- endregion -->
+
+    <!-- license -->
+    <string name="open_source_license_button">Open source licenses</string>
+    <string name="contact_name">%1$s %2$s</string>
+    <!-- endregion -->
+
+    <!-- region Edit tax -->
+    <string name="edit_tax_inclusive">Inclusive</string>
+    <string name="edit_tax_default">Default</string>
+    <string name="edit_tax_rates">Rates</string>
+    <string name="edit_tax_accumulative_of">Accumulative of</string>
+    <!-- endregion -->
+
+    <!-- region password complexity -->
+    <string name="password_complexity_title">Password must contain:</string>
+    <string name="password_complexity_upper_and_lower_case_characters">Upper and lower case characters</string>
+    <string name="password_complexity_number_or_symbol">A number or symbol (e.g. @#$%)</string>
+    <string name="password_complexity_10_or_more_characters">10 or more characters</string>
+    <string name="password_complexity_error">Password doesn\'t meet requirements</string>
+    <!-- endregion -->
+
+    <!-- region first invoice experiment -->
+    <string name="customize_invoice_prompt_title">Choose a template, select color, upload your logo, and more.</string>
+    <string name="customize_invoice_prompt_subtitle">Add your brand to the invoice?</string>
+    <string name="customize_invoice_prompt_confirm_yes">Yes</string>
+    <string name="customize_invoice_prompt_confirm_no">No, Skip</string>
+    <string name="template_editor_design_menu_next">Next</string>
+    <string name="doc_sent_confirmation_title">All done</string>
+    <string name="doc_sent_confirmation_description">Don\'t stop there...where to next?</string>
+    <string name="invoice_sent_confirmation_title_first">Your first invoice!</string>
+    <string name="doc_sent_confirmation_cta_home">Home</string>
+    <string name="doc_sent_confirmation_cta_invoices">See all invoices</string>
+    <string name="doc_sent_confirmation_cta_estimates">See all estimates</string>
+    <string name="doc_sent_confirmation_cta_purchase_orders">See all purchase orders</string>
+    <string name="doc_sent_confirmation_cta_credit_memos">See all credit memos</string>
+    <!-- endregion -->
+
+    <!-- region next best action -->
+    <string name="next_best_action_banner_title">Action required</string>
+    <string name="next_best_action_banner_body_medium">Stripe’s going away on %1$s</string>
+    <string name="next_best_action_banner_body_hard">Stripe’s going away in %1$d days</string>
+    <string name="next_best_action_banner_cta">Find out more</string>
+    <string name="next_best_action_canvas_header_hard">Stripe card payments will be turned off in %1$d days</string>
+    <string name="next_best_action_canvas_header_body_with_incentive_instant_transfers">
+        Invoice2go Card Payments will replace Stripe, allowing you to accept credit and debit card payments.
+        \nSwitch before %1$s and get 30 days of free Instant Payouts (a %2$s fee applies after the 30-day period).
+    </string>
+    <string name="next_best_action_canvas_header_body_with_incentive_instant_transfers_plus">
+        To keep accepting credit and debit cards, set up %1$as\n
+        Switch now and get:
+        %2$as
+    </string>
+    <string name="next_best_action_canvas_header_body_itp_item1">
+        Instant Payouts for free for 30 days
+    </string>
+    <string name="next_best_action_canvas_header_body_itp_item2">
+        Up to %1$s in card processing fees covered for 90 days.
+    </string>
+    <string name="next_best_action_canvas_header_body_card_payments">Invoice2go Card Payments.</string>
+    <string name="next_best_action_canvas_terms_and_conditions_title">Offer Terms:</string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_it">
+        Set up Invoice2go Card payments by %1$as, and Invoice2go will waive fees for Instant Payouts
+        for 30 days.
+        \n
+        \nTo be eligible for this offer you must:
+        %2$asInvoice2go will waive Instant Payout fees until Thirty(30) days from the date you switch and get fully
+        approved for Invoice2go Card Payments\n
+        \nAfter the 30-day period, a %3$as fee will apply for instant payouts.
+        \n
+        \nThe fee waiver does NOT include fees related to refunds or disputes/chargebacks that are processed on any Invoice2go Instant Payouts.
+        \n
+        \nInvoice2go reserves the right to modify this offer at any time.
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_it2_pre_clickable">
+        \n*Eligible Bank Accounts include accounts at financial institutions which participate in the Real Time
+        Payments (RTP) Network which can receive RTP. To find out if your account is enabled to receive RTP,
+        please contact your financial institution. You can check if your bank is part of the RTP Network by
+        accessing\u0020
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_it2_clickable">
+        The Clearing House website
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_it2_post_clickable">
+        .
+    </string>
+    <string name="next_best_action_canvas_fee" formatted="false">1%</string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_it_item1">
+        Apply and get approved for Invoice2go Card payments by %1$s; and
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_it_item2">
+        Link your Eligible Bank Account* to start using Invoice2go Instant Payouts.
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp_item1">
+        Apply and get approved for Invoice2go Card payments by %1$s; and
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp_item2">
+        Link your Eligible Bank Account* to start using Invoice2go Instant Payouts.
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp">
+        Set up Invoice2go Card Payments by %1$as, and Invoice2go will waive your first %2$as in card payments
+        processing fees for Invoice2go Card Payment, and your first 30 days of Instant Payout
+        fees. To be eligible for this offer you must:
+        %3$as
+        \nInvoice2go will waive Instant Payout fees until Thirty(30) days from the date you switch and get fully
+        approved for Invoice2go Instant Payouts. Invoice2go will also waive Invoice2go Card Payment processing
+        fees until one of the following occurs:
+        %4$as
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp2_pre_clickable">
+        \nAfter this, regular Card Payment and Instant Payout fee\u0020
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp2_post_clickable">
+        \u0020will apply.\n
+        \nIf any refunds, disputes/chargebacks are processed on any Invoice2go Card Payments, the fees for those
+        refunds, disputes/chargebacks will also count toward your %1$s Card Payment fee waiver limit.\n
+        \nInvoice2go reserves the right to modify this offer at any time.
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp2_clickable">
+        pricing
+    </string>
+    <string name="next_best_action_clearing_house_link" translatable="false">
+        https://www.theclearinghouse.org/payment-systems/rtp/RTP-Participating-Financial-Institutions
+    </string>
+    <string name="next_best_action_canvas_pricing_link" translatable="false">
+        https://invoice.2go.com/pricing
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp3_pre_clickable">
+        \n*Eligible Bank Accounts include accounts at financial institutions which participate in the Real Time
+        Payments (RTP) Network which can receive RTP. To find out if your account is enabled to receive RTP,
+        please contact your financial institution. You can check if your bank is part of the RTP Network by
+        accessing\u0020
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp3_clickable">
+        The Clearing House website
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp3_post_clickable">
+        .
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp_num_item1">
+        Apply and get approved for Invoice2go Card payments by %1$s; and
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp_num_item2">
+        Link your Eligible Bank Account* to start using Invoice2go Instant Payouts.
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp_num_item3">
+        You reach the Card Payment fee waiver limit of %1$s; or
+    </string>
+    <string name="next_best_action_canvas_terms_and_conditions_body_itp_num_item4">
+        Three(3) months elapse from the date you switch and get fully approved for Invoice2go Card Payments.
+    </string>
+    <string name="next_best_action_canvas_button_next">Switch now</string>
+    <string name="next_best_action_canvas_button_cancel">I\'ll do it later</string>
+    <string name="best_next_action_content_title">Stripe\'s going away soon. Switch now.</string>
+    <string name="best_next_action_content_description">Time\'s running out—to keep accepting Mastercard, Visa and Amex, you need to switch to Invoice2go Card Payments (it\'s easy!).</string>
+    <string name="best_next_action_button_set_up">Set up</string>
+    <!-- endregion -->
+
+    <!-- region save default payment instruction -->
+    <string name="document_add_payment_instruction">Add payment instruction</string>
+    <string name="dialog_save_default_payment_instruction_title">Saved.\nRemember for future invoices?</string>
+    <string name="dialog_save_default_payment_instruction_description">You can change your payment instructions anytime in Account &amp; settings.</string>
+    <string name="dialog_save_default_payment_instruction_positive">Yes</string>
+    <string name="dialog_save_default_payment_instruction_negative">No</string>
+    <string name="dialog_save_default_payment_instruction_saved_notification">Payment instructions saved for future invoices</string>
+    <!-- endregion -->
+
+    <!-- Reverse charge -->
+    <string name="tax_reverse_charge_toggle">Reverse Charge</string>
+    <string name="tax_dropdown_label">Rate</string>
+    <string name="tax_reverse_charge_footer">Enable Reverse Charge if customer is to pay the VAT on this item.</string>
+    <string name="tax_reverse_charge_footer_link">About Reverse Charge</string>
+    <string name="tax_reverse_charge_breakdown_title">Less Reverse Charge</string>
+    <!-- end region -->
+
+    <!-- region terms and conditions page-->
+    <string name="terms_and_conditions_prompt">Read all terms to continue</string>
+    <string name="terms_and_conditions_accept">Accept</string>
+    <string name="terms_and_conditions_cancel">Cancel</string>
+    <!-- endregion -->
+
+    <!-- region setup online payments card -->
+    <string name="setup_online_payments_card_title">Great idea, but not great timing?</string>
+    <string name="setup_online_payments_card_content">Get steps to set up online payments when it suits you.</string>
+    <string name="setup_online_payments_card_action">Get the email</string>
+    <string name="setup_online_payments_card_action_success">Great! Look out for that email soon.</string>
+    <string name="other_payment_methods">Payment methods</string>
+    <string name="other_payment_methods_select_payments">Select payment methods</string>
+    <!-- endregion -->
+
+    <!-- region client payment overview -->
+    <string name="client_payment_overview_header">Online payments</string>
+    <string name="client_payment_overview_title_1">Accept payments securely.\nGet paid faster.</string>
+    <string name="client_payment_overview_title_2">Convenient for clients</string>
+    <string name="client_payment_overview_subtitle_2">Give clients fast, secure ways to pay – by card, ACH bank transfer, or PayPal.</string>
+    <string name="client_payment_overview_title_3">Easier for you</string>
+    <string name="client_payment_overview_subtitle_3">Get real-time notifications on payment statuses, all auto-reconciled to invoices.</string>
+    <string name="client_payment_overview_title_4">All in one place</string>
+    <string name="client_payment_overview_subtitle_4">Send invoices, accept secure payments, and view cash flow right in the app.</string>
+    <string name="client_payment_overview_title_5">Find a payment option that’s right for you</string>
+    <string name="client_payment_overview_item_i2g_ach_subtitle">ACH bank transfers with\nInvoice2go Money</string>
+    <string name="client_payment_overview_item_i2g_ach_first_text">$0 Bank transfer fees</string>
+    <string name="client_payment_overview_item_i2g_ach_second_text">Secure, FDIC insured</string>
+    <string name="client_payment_overview_item_i2g_ach_third_text">Set up in 5 minutes</string>
+    <string name="client_payment_overview_item_i2g_ccp_subtitle">Card payments with\nInvoice2go Money</string>
+    <string name="client_payment_overview_item_i2g_ccp_first_text">Visa, Mastercard, Amex</string>
+    <string name="client_payment_overview_item_i2g_ccp_second_text">Support direct from us</string>
+    <string name="client_payment_overview_item_i2g_ccp_third_text">Fast, easy, secure</string>
+    <string name="client_payment_overview_item_stripe_subtitle">Card payments with\nStripe</string>
+    <string name="client_payment_overview_item_stripe_first_text">Visa, Mastercard, Amex</string>
+    <string name="client_payment_overview_item_stripe_second_text">Pay online or in-person</string>
+    <string name="client_payment_overview_item_stripe_third_text">Fast, simple setup</string>
+    <string name="client_payment_overview_item_paypal_subtitle">PayPal</string>
+    <string name="client_payment_overview_item_paypal_first_text">Trusted worldwide</string>
+    <string name="client_payment_overview_item_paypal_second_text">Convenient and secure</string>
+    <string name="client_payment_overview_item_paypal_third_text">Link new or existing\nPayPal account</string>
+    <string name="client_payment_overview_item_apply_now">Apply now</string>
+    <string name="client_payment_overview_item_connect_with_stripe">Connect with Stripe</string>
+    <string name="client_payment_overview_item_learn_more">Learn more</string>
+    <string name="client_payment_overview_item_link_paypal">Link to Paypal</string>
+    <string name="client_payment_overview_no_option">Sorry, no options are currently available.</string>
+    <string name="client_payment_overview_dont_show_again">Don’t show this page again</string>
+    <!-- endregion -->
+
+    <!-- offline payments -->
+    <string name="document_button_mark_deposit_as_paid">Mark deposit as paid</string>
+    <string name="estimate_deposit_banner_message">Choose from bank transfers, cash and other payment methods that suit you.</string>
+    <string name="estimate_deposit_banner_primary_cta">Add more ways to pay</string>
+    <string name="estimate_deposit_banner_secondary_cta">Dismiss</string>
+    <string name="estimate_deposit_banner_title">More payment methods for deposit requests</string>
+    <!-- endregion -->
+
+    <!-- region invoice template experiment -->
+    <string name="template_rendering_error_alert_title">Can’t see the preview?</string>
+    <string name="template_rendering_error_alert_message">If you’ve recently changed document designs on another device, update the app to view the latest version here.</string>
+    <string name="template_rendering_error_update_app">Update app</string>
+
+    <!-- endregion -->
+
+    <!-- region ofac required business info -->
+    <string name="required_business_info_header">Business info</string>
+    <string name="required_business_info_title">Required: add these details before sending %1$ss</string>
+    <string name="required_business_info_subtitle">It’s important to have the correct details saved in your account.</string>
+    <string name="required_business_info_name_label">Legal business name*</string>
+    <string name="required_business_info_name_description">Don’t have one? Type your own full name.</string>
+    <string name="required_business_info_name_description_v2">If you’re a sole proprietor and haven’t registered a name, enter your own full name.</string>
+    <string name="required_business_info_doing_business_as_label">Doing business as*</string>
+    <string name="required_business_info_trading_label">Trading name*</string>
+    <string name="required_business_info_doing_business_as_description">If you don\'t have a \'doing business as\' name, enter the legal business name.</string>
+    <string name="required_business_info_trading_description">If you don\'t have a trading name, enter the legal business name.</string>
+    <string name="required_business_info_address_label">Registered business address*</string>
+    <string name="required_business_info_address_autofill_title">Address</string>
+    <string name="required_business_info_address_description">Don’t have one? Type your home address.</string>
+    <string name="required_business_info_address_description_v2">If you haven’t registered the business, enter your home address.</string>
+    <string name="required_business_info_save">Save</string>
+    <string name="required_business_info_cancel">Cancel</string>
+    <string name="required_business_info_error">Field required to send %1$s</string>
+    <string name="required_business_info_dismiss_dialog_title">Do you want to stay or leave and discard any changes?</string>
+    <string name="required_business_info_dismiss_dialog_discard">Discard</string>
+    <string name="required_business_info_dismiss_dialog_cancel">Cancel</string>
+    <string name="required_business_info_success_result_message">You can now send your %1$s</string>
+    <string name="required_business_info_success_result_toast">Company info saved</string>
+
+    <!-- endregion -->
+
+    <!-- region other payment methods -->
+    <string name="ftu_other_payment_methods_title">Add a payment method</string>
+    <string name="ftu_other_payment_methods_subtitle">Give clients choice and ensure smooth, secure payments for your business.</string>
+    <string name="ftu_other_payment_methods_card_i2g_banking_title">Bank transfer</string>
+    <string name="ftu_other_payment_methods_card_i2g_banking_subtitle">With Invoice2go Money</string>
+    <string name="ftu_other_payment_methods_card_i2g_banking_row1">Zero-fee ACH bank transfers</string>
+    <string name="ftu_other_payment_methods_card_i2g_banking_row2">Fast access to money</string>
+    <string name="ftu_other_payment_methods_card_i2g_banking_row3">FDIC payment protection</string>
+    <string name="ftu_other_payment_methods_card_paypal_title">PayPal</string>
+    <string name="ftu_other_payment_methods_card_paypal_subtitle">Link your PayPal account</string>
+    <string name="ftu_other_payment_methods_card_paypal_row1">Trusted worldwide</string>
+    <string name="ftu_other_payment_methods_card_paypal_row2">Convenient and secure</string>
+    <string name="ftu_other_payment_methods_card_paypal_row3">Link a new or existing PayPal account</string>
+    <string name="ftu_other_payment_methods_continue">Continue</string>
+    <string name="ftu_other_payment_methods_learn_more">Learn more</string>
+
+    <!-- endregion -->
+
+    <!-- region Tax 1099-K Form -->
+    <string name="tax_1099k_header">Form 1099-K</string>
+    <string name="tax_1099k_description">Use Form 1099-K to report the Invoice2go Money card payments you’ve received.</string>
+    <string name="tax_1099k_learn_more">Learn more</string>
+    <string name="tax_1099k_forms_label">Years</string>
+    <string name="tax_1099k_empty_description">You’ll see the forms listed here when they’re ready to download.</string>
+    <string name="tax_1099k_form_unavailable_title">Form unavailable</string>
+    <string name="tax_1099k_form_unavailable_description">We can’t access Form 1099-K right now. Try again later.</string>
+    <string name="tax_1099k_form_unavailable_description_400">This form isn’t ready to download, or it’s not required for the selected year.</string>
+    <!-- endregion -->
+
+    <!-- region Settings-BankStatements -->
+    <string name="bank_statements_header">Bank statements</string>
+    <string name="bank_statements_empty_description">You’ll see the statements listed here when they’re ready to download.</string>
+    <!-- endregion -->
+
+    <!-- region Charge A Card-->
+    <string name="charge_a_card_education_i2g_title">Charge a client’s card</string>
+    <string name="charge_a_card_education_i2g_subtitle">Take payments using your phone</string>
+    <string name="charge_a_card_education_i2g_item_title_1">Enter the card details and amount</string>
+    <string name="charge_a_card_education_i2g_item_subtitle_1">Don’t write down or store any card details.</string>
+    <string name="charge_a_card_education_i2g_item_title_2">Submit the payment</string>
+    <string name="charge_a_card_education_i2g_item_subtitle_2">Make sure your internet connection is secure and device is up to date.</string>
+    <string name="charge_a_card_education_i2g_item_title_3">We’ll email a receipt to the client</string>
+    <string name="charge_a_card_education_i2g_item_subtitle_3">You’ll receive payment confirmation too.</string>
+    <string name="charge_a_card_education_i2g_tips_title">Get more tips to help you stay compliant</string>
+    <string name="charge_a_card_education_stripe_title">We’ve updated our Terms</string>
+    <string name="charge_a_card_education_stripe_description">Before you continue, take a look at the new Terms and Conditions for charging cards.\n\nWe’ve added a few privacy and security requirements you should know about.</string>
+    <string name="charge_a_card_education_stripe_see_updated_terms_conditions">See updated Terms and Conditions</string>
+    <string name="charge_a_card_education_terms_conditions_description">By continuing, you agree to safeguard all cardholder details and accept the&#160;</string>
+    <string name="charge_a_card_education_terms_conditions_link_text">Terms and Conditions</string>
+
+    <string name="charge_a_card_sync_error_invoice_preview">Not ready to take a payment. Wait a few moments, then try again.</string>
+    <string name="charge_a_card_education_terms_conditions_api_error">Sorry, there was a problem at our end. Wait a few moments, then try again.</string>
+
+    <string name="i2g_ccp_cac_awareness_title">Charge a card</string>
+    <string name="i2g_ccp_cac_awareness_message">Take payments anywhere, anytime</string>
+    <string name="i2g_ccp_cac_awareness_body_1">Easily accept card payments over the phone or in person.</string>
+    <string name="i2g_ccp_cac_awareness_body_2">Enter the cardholder’s details and submit the payment. Done!</string>
+    <string name="i2g_ccp_cac_awareness_footer">Select an invoice and tap Charge a card.</string>
+    <!-- endregion -->
+
+    <!-- region Instant Payout -->
+    <string name="instant_payout_get_started_screen_title_1">Introducing instant payouts</string>
+    <string name="instant_payout_get_started_screen_subtitle_1">Congrats! You’re approved to receive eligible payouts instantly. That’s 2–3 days faster than the standard delivery times!</string>
+    <string name="instant_payout_get_started_screen_title_2">No time to wait?</string>
+    <string name="instant_payout_get_started_screen_subtitle_2">Instant payouts can be requested anytime—day, night, even on holidays and weekends!</string>
+    <string name="instant_payout_get_started_screen_description_2" formatted="false">Eligible payouts are typically processed in seconds but could take up to 10 minutes. A 1% fee ($1 min) and transfer limits apply.</string>
+    <string name="instant_payout_get_started_screen_get_it_now">Get it now</string>
+    <string name="instant_payout_get_started_screen_title_3">Automatic instant payouts</string>
+    <string name="instant_payout_get_started_screen_subtitle_3">Want all eligible payouts lightning fast? Select the option below and you’re all set. (You can change this setting anytime.)</string>
+    <string name="instant_payout_get_started_screen_toggle_title_3">Get payouts instantly</string>
+    <string name="instant_payout_get_started_error_title">We couldn’t save your preference</string>
+    <string name="instant_payout_get_started_error_subtitle">You can set this preference later in the Invoice2go Money settings.</string>
+    <string name="instant_payout_get_started_settings">Settings</string>
+    <string name="instant_payout_get_started_no_bank_error_title">First, link a bank account</string>
+    <string name="instant_payout_get_started_no_bank_error_subtitle">To get instant payouts, link an account that supports real-time payments.</string>
+    <string name="instant_payout_get_started_rtp_ineligible_error_title">Bank account not supported</string>
+    <string name="instant_payout_get_started_rtp_ineligible_error_subtitle">To get instant payouts, unlink your bank account in Settings, then link an account that supports real-time payments.</string>
+    <string name="instant_payout_get_started_micro_deposit_error_title">Bank account not verified</string>
+    <string name="instant_payout_get_started_micro_deposit_error_subtitle">You haven’t verified your bank account. To start receiving instant payouts, go to Settings and verify your account.</string>
+
+    <string name="instant_payout_get_started_button_next">Next</string>
+    <string name="instant_payout_get_started_button_done">Done</string>
+    <string name="instant_payout_get_started_button_skip">Skip</string>
+    <string name="instant_payout_setting_section_title">Automatic instant payouts</string>
+    <string name="instant_payout_setting_footer">Eligible payouts are typically processed in seconds but could take up to 10 minutes. Transfer limits apply.</string>
+    <string name="instant_payout_setting_footer_link">Learn more</string>
+    <string name="instant_payout_setting_warning_banner_title">Your linked bank account doesn’t support real-time payments</string>
+    <string name="instant_payout_setting_linked_account_rtp_ineligible_title">Bank account doesn’t support real-time payments</string>
+    <string name="instant_payout_setting_linked_account_rtp_ineligible_message">The bank account is linked, but you won’t be able to request instant payouts.</string>
+    <string name="instant_payout_setting_unlink_title">Unlink this bank account?</string>
+    <string name="instant_payout_setting_unlink_message">Payouts will be paused until you link another bank account.</string>
+    <!-- endregion -->
+
+    <!-- region Kyc Update -->
+    <string name="kyc_update_entry_screen_title">Update your\nbusiness info</string>
+    <string name="kyc_update_entry_screen_subtitle">Because this info relates to your business as a legal entity, we sometimes need to review changes. If required, Invoice2go Money payments may be disrupted until approved.\n\nCheck everything’s correct as you go, to minimize any need for review.</string>
+    <string name="kyc_update_entry_screen_button_primary">Continue</string>
+    <string name="kyc_update_entry_screen_button_secondary">Go back</string>
+    <string name="kyc_update_web_form_title">Update business information</string>
+    <!-- endregion -->
+
+    <!-- region Industry Code -->
+    <string name="industry_code_screen_header">Industry</string>
+    <string name="industry_code_screen_title">What’s your industry?</string>
+    <string name="industry_code_screen_subtitle">As a provider of financial services, we’re required to record the industries our customers operate in.\n\nWe don’t have this information for your business, so please select the industry that best describes your main business activity.</string>
+    <string name="industry_code_screen_field_text">Industry</string>
+    <string name="industry_code_screen_field_hint">Select</string>
+    <string name="industry_code_screen_button_primary">Submit</string>
+    <string name="industry_code_screen_button_secondary">Cancel</string>
+    <string name="industry_code_screen_error_dialog_message">Can’t save industry, please try again later.</string>
+    <string name="industry_code_saved_message">Industry saved</string>
+    <!-- endregion -->
+
+    <!-- region Industry Code -->
+    <string name="access_restricted_headline">Access restricted</string>
+    <string name="access_restricted_body">Invoice2go is not accessible in your current location</string>
+    <!-- endregion -->
+</resources>

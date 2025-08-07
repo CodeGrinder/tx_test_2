@@ -1,0 +1,8 @@
+filters:
+
+- filter_type: dynamic
+  file_format: TXT
+  source_files_expression: source/<dir>/<file>_en.txt
+  source_language: en
+  translation_files_expression: 'Translations/<dir>/<file>_<lang>.txt'
+

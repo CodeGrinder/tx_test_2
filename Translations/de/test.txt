@@ -1,0 +1,4 @@
+Textarchivierungstest
+Transifex-Repository
+GitHub-Konfiguration
+Willkommen bei Transifex
